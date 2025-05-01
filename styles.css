@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: .5rem;
   font-size: 1.1rem;
+  color: black;
 }
 button:hover {
   opacity: .8;
@@ -23,7 +24,9 @@ button:hover {
 }
 button#million {
   background-color: yellow;
+  color: #717208;
 }
 button#penny {
   background-color: lime;
+  color: darkgreen;
 }
