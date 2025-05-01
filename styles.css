@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Geist); 
+
+body {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  font-family: Inter, Geist, sans-serif;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.1rem;
+}
+button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+button#million {
+  background-color: yellow;
+}
+button#penny {
+  background-color: lime;
+}
